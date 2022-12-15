@@ -1,0 +1,452 @@
+
+
+  .flex {
+    display: flex;/*para poder maquetar el proyecto*/
+  }
+  body {
+    font-family: "Roboto", sans-serif;/* para poner el tipo de letra*/
+    font-size: 21px;/*para seleccionar el tamaño de la fuente */
+  }
+  .fondo {
+    background-image: url("../imagenes/poster.jpg");/*el color de el fondo de la imagen */
+    background-repeat: no-repeat; /*par controlar si la imagen de fondo de reoite o no */
+    background-position: top center;/* para pòsicionar el fondo*/
+    background-size: cover;/*nos permite asignar un nuevo valor de ancho y alto para nuestras imágenes de acuerdo al tamaño de la pantalla.*/
+  }
+  .separador {
+    height: 245px;/*para el alto */
+  }
+  
+  #header {
+    background-color: white;/*color de fondo*/
+  }
+  
+  .content {
+    background-color: #f3f2f2;/*color de fondo*/
+    padding: 10px;/* establece el espacio de relleno requerido por todos los lados de un elemento*/
+  }
+  .container-fluid {
+    width: 100%;/*para el ancho */
+  }
+  .container {
+    width: 1300px;
+    margin: 0 auto 0 auto;/*para determinar los margenes*/
+   
+  }
+  .top2 {
+    border-bottom: 3px solid #fff10e;/*para poner el grosor de el bode y el color */
+  }
+  .fila {
+    display: flex;/*para poder maquetar el proyecto*/
+  }
+  .menu {
+    display: flex;/*para poder maquetar el proyecto*/
+    align-items: center;/*para alinear items */
+  }
+  .menu ul {
+    width: 100%;
+    display: flex;/*para poder maquetar el proyecto*/
+    justify-content: space-around;
+    align-items: center;/*para alinear items */
+  }
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu li a {
+    color: black;/*para poner un el color*/
+    text-decoration: none;
+  }
+  .menu-top1 {
+    margin-bottom: 21px;/*para indicar el margen de el boton*/
+  }
+ 
+  .menu-top1 ul li a:hover {
+    text-decoration: underline;/*para que no se vea la decoracion de el texto como por ejemplo la ralla que se ve abajo de los enlaces cuando pasas el cursor por encima*/
+  }
+  .logo_mini {
+    width: 29px;
+  }
+  .logo {
+    width: 405px;
+  }
+  .logo img {
+    width: 100%;
+    padding: 0 300px 0 30px;
+  }
+  .menu-top2 {
+    width: 100%;
+  }
+  .menu-top2 li {
+    text-align: center;
+  }
+  .menu-top2 li {
+    background-color: #ebe800;
+  }
+  
+  .menu-principal {
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+  }
+  .menu-principal li {
+    width: 150px;
+    background-color: #d3d3d3;
+    padding: 5px;
+    text-align: center;
+  }
+  .menu-principal li {
+    background-color: #0076ec;
+  }
+  .menu-principal li {
+    color: white;
+  }
+  .menu-principal li a {
+    color: #0076ec; 
+  }
+  .filtro {
+    display: flex;
+    justify-content: flex-end;/*para maquetar la web*/
+    align-items: center;
+  }
+  .boton {
+    display: inline-block;/*para maquetar la web*/
+    padding: 10px;
+    margin: 30px;
+    font-family: "Oswald", sans-serif;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  .menu ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .menu li {
+    list-style: none;
+  }
+  .menu-top1 ul li a {
+    color: grey;
+  }
+  .menu-top1 ul li a
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .boton-blanco {
+    background-color: white;
+    text-decoration: none;
+    color: #0557a8; 
+    font-weight: bold;
+  }
+  .boton-blanco {
+    background-color: #055eb8;
+    color: white;
+  }
+  .menu-top1 ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;/*para maquetar la web*/
+    margin-top: 5px;
+  }
+  .menu-top1 ul li {
+    padding: 0 10px 0 10px;
+  }
+  .menu-top1 ul li:last-child {
+    border-left: 1px solid grey;/*para elegir el ancho de el borde que deseamos y el color*/
+  }
+  .menu-top1 ul li a {
+    color: grey;
+  }
+  .boton-azul {
+    background-color: #0076ec;
+    color: white;
+  }
+  .color-azul {
+    color: #0068cf;
+  }
+  .fichas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ficha {
+    width: 255px;
+    
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;/* permite proyectar una sombra difuminada desde el marco de casi cualquier elemento*/
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;/*para poner el radio de los bordes*/
+    font-family: "Oswald", sans-serif;
+  }
+  .ficha h3 {
+    margin: 10px 0 10px 0;
+    color: #0076ec;
+  }
+  .ficha-img img {
+    width: 100%;
+  }
+  .estrellas {
+    margin-top: 11px;
+    color: #fff10e;
+  }
+  
+  .ficha-botton {
+    margin-top: 10px;
+  }
+  
+  h3 {
+    color: #004987;
+    margin-bottom: 10px;
+  }
+  
+  .col {
+    width: 100%;
+  }
+  .col ul li {
+    list-style: none;
+    
+  }
+  .col ul li a {
+    text-decoration: none;
+    color: #808080;
+  }
+  footer {
+    margin: 0 20px 100px 20px;
+  }
+  footer i,
+  .boton-inferior i {
+    font-size: 50px;
+    color: #004987;
+  }
+  .iconos {
+    display: flex;
+    justify-content: center;
+  }
+  .iconos ul {
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+  }
+  .menu-bottom {
+    padding: 50px;
+  }
+  .boton-inferior {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }{
+    text-decoration: underline;
+  }
+  .logo_mini {
+    width: 30px;
+  }
+  .menu li a {
+    color: black;
+    text-decoration: none;
+  }
+  .menu-top1 {
+    margin-bottom: 20px;
+  }
+  .menu-top1 ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+    margin-top: 5px;
+  }
+  .menu-top1 ul li {
+    padding: 0 10px 0 10px;
+  }
+  .menu-top1 ul li:last-child {
+    border-left: 1px solid grey;
+  }
+
+  .logo {
+    width: 400px;
+  }
+  .logo img {
+    width: 100%;
+    padding: 0 50px 0 50px;
+  }
+  .menu-top2 {
+    width: 100%;
+  }
+  .menu-top2 li {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menu-top2 li {
+    background-color: #ebe800;
+  }
+  .ficha {
+    width: 255px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;/* permite proyectar una sombra difuminada desde el marco de casi cualquier elemento*/
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+  }
+  .menu-principal li{
+    background-color: #0076ec;
+  }
+  .menu-principal li{
+    color: white;
+  }
+  .menu-principal li a {
+    color: #0076ec; 
+  }
+  .filtro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-principal {
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+  }
+  .menu-principal li {
+    width: 150px;
+    margin: 0 5px 0 5px;
+    background-color: #d3d3d3;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .boton-blanco {
+    background-color: white;
+    text-decoration: none;
+    color: #0076ec; 
+    font-weight: bold;
+  }
+  .boton-blanco {
+    background-color: #0076ec;
+    color: white;
+  }
+  .color-azul {
+    color: #0076ec;
+  }
+  .fichas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col ul li {
+    list-style: none;
+    line-height: 1.7em;
+  }
+  .col ul li a {
+    text-decoration: none;
+    color: #808080;
+  }
+
+  .boton {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+  .container-iconos {
+    width: 1305px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+    width: 605px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+  }
+  .top2 {
+    border-bottom: 3px solid #fff10e;
+  }
+  .fila {
+    display: flex;
+  }
+ 
+  h3 {
+    color: #004987;
+    margin-bottom: 10px;/*para definir el margen de el boton*/
+  }
+  
+  .col {
+    width: 100%;
+  }
+
+  footer {
+    margin: 0 20px 100px 20px;
+  }
+  .boton-inferior i {
+    font-size: 50px;
+    color: #004987;
+  }
+  .ficha-botton {
+    margin-top: 10px;
+  }
+  .flex {
+    display: flex;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .separador {
+    height: 255px;
+  }
+  
+  #header {
+    background-color: white;
+  }
+
+  .content {
+    background-color: #f3f2f2;
+    padding: 10px;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .iconos {
+    display: flex;
+    justify-content: center;
+  }
+  .iconos ul {
+    width: 610px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-bottom {
+    padding: 50px;
+  }
+  .boton-inferior {
+    position: fixed;
+    bottom: 55px;
+    right: 50px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .ficha h3 {
+    margin: 10px 0 10px 0;
+    color: #0076ec;
+  }
+  .ficha-img img {
+    width: 100%;
+  }
+  .estrellas {
+    margin-top: 10px;
+    color: #fff10e;
+  }
+  
+
+  
+  
+  
